@@ -3,8 +3,8 @@
 - Use github first to connect local repo to github repo.
 
 - Use **trello**, to make a work plan.
- -[trello](https://trello.com/b/MZ4zCbBK/t1a1-portfolio-project-management).
-
+ -<a href="https://trello.com/b/MZ4zCbBK/t1a1-portfolio-project-management" target="_blank">my trello workflow</a>
+ 
 - Use **Balsamiq Wireframes** to make a website draft.
 
 - Start create HTML file.
