@@ -9,6 +9,8 @@
 
 - Start create HTML file.
 
-- Start create Sass file and then use Sass command to turn it to CSS file.
+- Start create CSS file.
+
+- Try to create Sass file and then use Sass command to turn it to CSS file, instead of the above CSS file.
 
 - **Important**, need create the skeleton by myself first and then use bootstrap to update, cannot use bootstrap directly! 
