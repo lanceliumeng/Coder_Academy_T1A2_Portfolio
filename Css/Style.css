@@ -1,0 +1,212 @@
+/* there are too much links for the below fonts, so I choose import the font style in CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+/* control the project and make it easizer */
+/* let me control the width more easizer */
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+/* remove all margin and padding from the body so I can put everyting up right next to the border of our screen */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+/* start: only for navbar css style */
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+}
+
+.logo {
+    color: white;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.logo:hover {
+    color: #fa4006;
+}
+
+/* .brand_title img {
+    width: 50%;
+    height: 50%;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+} */
+
+.navbar_links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_links li {
+    list-style: none;
+}
+
+.navbar_links li a {
+    text-decoration: none;
+    color:white;
+    padding: 1rem;
+    display: inline-block;
+}
+
+/* make sure when I click the link and color can be changed */
+.navbar_links li a:hover {
+    color: #fa4006;
+}
+
+.toggle_button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle_button .bar {
+    height:3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* use google developer tool to inspect the best size response */
+@media screen and (max-width:740px) {
+    .toggle_button {
+        display: flex;
+    }
+    .navbar_links {
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar_links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar_links li {
+        text-align: center;
+    }
+    .navbar_links li a {
+        padding: 0.5rem 1rem;
+        border-top: 1px solid white;
+        width: 80%;
+    }
+
+    .navbar_links.active {
+        display: flex;
+    }
+}
+/* end: navbar css style */
+
+/* start: brife intro */
+.quick-intro {
+    text-align: center;
+    margin-top: 20%;
+    display:flex;
+    background-color: tomato;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+.quick-intro div {
+    margin: 4rem 0;
+}
+
+/* .quick-intro .intro-points {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: yellow;
+    color: black;
+    padding: 1rem;
+    font-size: 1.2rem;
+} */
+
+.quick-intro .welcome-intro p{
+    font-size: 5rem;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+
+
+.quick-intro .intro-points li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: yellow;
+    color: black;
+    margin:0 5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+/* comment below casue the style not good enough */
+
+/* .navbar {
+    font-size: 1.5em;
+    display:flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul,li {
+    display: inline;
+    margin:0;
+    padding:0 10px 0 10px;
+}
+
+
+.quick-intro {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 30%;
+}
+
+@media screen and (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    ul li {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    ul li {
+        padding: 0;
+    }
+} */
+
